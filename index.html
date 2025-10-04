@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Sederhana</title>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Kami</h2>
+            <p>Ini adalah contoh halaman HTML sederhana tanpa CSS atau JavaScript. Halaman ini hanya menggunakan tag-tag HTML dasar.</p>
+            <p>HTML (HyperText Markup Language) adalah bahasa markup standar untuk membuat halaman web.</p>
+        </section>
+
+        <section id="layanan">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Pembuatan Website</li>
+                <li>Desain Grafis</li>
+                <li>Konsultasi IT</li>
+            </ul>
+        </section>
+
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <form>
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+        <section>
+            <h2>Gambar</h2>
+            <img src="img/UDINUS.jpg" alt="Placeholder Image" width="300" height="200">
+            <h3>Contoh IFrame</h3>
+            <iframe src="https://www.youtube.com/embed/RGE-elUVkeg" width="500" height="300" title="Contoh Iframe">
+                Konten ini hanya akan ditampilkan jika browser tidak mendukung iframe.
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Website Saya. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
